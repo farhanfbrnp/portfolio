@@ -1,0 +1,90 @@
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #3f2e30;
+    }
+
+    .container {
+        width: 65%;
+        margin: auto;
+        border: 10px solid #d6c60a;
+        overflow: auto;
+    }
+
+    .headpage {
+        width: 90%;
+        border: 10px solid #d8d0d1;
+    }
+
+    .image {
+        margin-bottom: 2rem;
+    }
+
+    .wrapper {
+        margin: 15px 0;
+    }
+
+    #thumb {
+        width: 200px;
+        float: left;
+        border: 3px solid #d8d0d1;
+        box-sizing: border-box;
+    }
+
+    #thumb:hover {
+        opacity: 0.5;
+    }
+
+    #load-more {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    }
+
+    .more{
+        background-color: #10c998;
+        cursor: pointer;
+        padding: 10px;
+        font-family: arial;
+        font-size: 15px;
+        font-weight: 300;
+        margin: 15px;
+        border-radius: 15px;
+        border: 1px solid;
+        color: white;
+        height: 45px;
+        transition: all .3s ease-in-out;
+    }
+
+    button:hover , button:focus {
+        background-color: transparent;
+        border-color: #d6c60a;
+        transition: all .3s ease-in-out;
+    }
+
+
+    @keyframes fadeIn {
+        to {
+            opacity: 1 rgb(255, 253, 234)
+        }
+    }
+
+    .fade {
+        opacity: 0;
+        animation: fadeIn 0.5s forwards;
+    }
+
+    .active {
+        opacity: 0.5;
+    }
+
+    .container .wrapper .image {
+        display: none;
+    }
+    
+    .container .wrapper .image:nth-child(1),
+    .container .wrapper .image:nth-child(2),
+    .container .wrapper .image:nth-child(3) {
+    
+        display: inline-block;
+    }

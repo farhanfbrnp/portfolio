@@ -1,0 +1,275 @@
+#menu-utama {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top:0;
+    }
+
+    .menu-container {
+    min-height: 70px;    
+    }
+
+    #org {
+    font-size: 25px;
+    font-weight: 700; 
+    margin: 0; 
+    }
+
+    .impo {
+    color: gold;
+    }
+
+    #importir {
+    font-size: 20px;
+    color: gold;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+
+    .brand-name a:hover {
+    color:rgb(216, 184,6);
+    }
+
+    .navbar-collapse {
+    justify-content: space-around;
+    }
+
+    a, a:hover {
+    text-decoration: none;
+    }
+
+    #navbartengah {
+    margin-right: -5rem;
+    }
+
+    .nav-item {
+    position: relative;
+    z-index: 2;
+    }
+
+    #navbartengah a:hover {
+    text-decoration: underline 10px white;
+    width: 100%;
+    }
+
+    .drop {
+    cursor: pointer;
+    }
+
+    nav .mbr-section-btn {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    }
+
+    .navbar-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .align-center {
+    text-align: center;
+    }
+
+    .btn, a:hover {
+    color:#ffffff
+    }
+
+    .buton{
+    letter-spacing: 2px;
+    font-weight: 600;
+    background-color: #30a02c;
+    border-color: #30a02c;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    margin-right:-7rem;
+    border-radius: 4px;
+    padding: 0.6rem 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    }
+
+    .btn-bawah {
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: #30a02c;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding: 1.4rem 2rem;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    }
+
+    .dropdown {
+    padding: 7px;
+    }
+
+    #dropdownMenuLink {
+    position: relative;
+    margin: 0 0.5rem;
+    z-index: 2;
+    background-color: #000;
+    color:gold;
+    border: #000;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+    .nav-item.dropdown .dropdown-menu {
+    opacity: 0;
+    pointer-events: none;
+    }
+
+    .dropdown-menu {
+    background: #000000;
+    min-width: 100%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    padding: 1.25rem 0;
+    }
+
+    .dropdown-item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: gold;
+    font-weight: 700;
+    padding: 10px;
+    }
+
+    #menu01, #header01 {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 30px 0
+    }
+
+    #header01 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #ffd600;
+    }
+
+    .container {
+    max-width: 1140px;
+    padding: 0 1rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    word-wrap: break-word;
+    }
+
+    .mbr-row {
+    display: flex;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    }
+
+    .mbr-col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    }
+
+    .mbr-m-auto {
+    margin: auto;
+    }
+
+    .img-wrapper {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    overflow: visible;
+    z-index: 1;
+    height: 290px;
+    width: 500px;
+    background: #ffffff;
+    z-index: 1;
+    }
+
+    .img-wrapper iframe {
+    width: 500px;
+    height: 290px;
+    }
+
+    .text-col {
+    padding: 0 2rem;
+    }
+
+    .header1 .mbr-section-title {
+    color: #197bc6;
+    }
+
+    .mbr-section-title {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    line-height: 1.2;
+    width: 100%;
+    }
+
+    .display-7 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    }
+
+    .mbr-pb-2, .mbr-py-2 {
+    padding-bottom: 1rem;
+    }
+
+    .mbt-semibold {
+    font-weight: 500;
+    }
+
+    .align-left {
+    text-align: left;
+    }
+
+    .display-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    }
+
+    .mbr-light {
+    font-weight: 300;
+    }
+
+    .mbr-black {
+    color: #000;
+    }
+
+    .mbr-section-subtitle {
+    line-height: 1.3;
+    width: 100%;
+    }
+
+    .mbr-pb-3, .mbr-py-3 {
+    padding-bottom: 25px;
+    }
+
+    .mbr-text {
+    font-style: normal;
+    line-height: 1.6;
+    width: 100%;
+    }
+
+    .mbr-section-btn {
+    margin: 0 -0.25rem;
+    font-size: 0;
+    }

@@ -1,0 +1,1067 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+.navbar {
+    padding: .5rem 0;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    left:0;
+}
+
+.menu-container {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+}
+
+.brand-name {
+    margin: 0;
+    letter-spacing: 1.5px;
+    line-height: 2;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.menu-container ul li {
+    display: inline;
+    margin-right: 60px;
+}
+
+.text-menu {
+    color: gold;
+    font-family: arial;
+    font-weight: 700;
+}
+.brand-name a:hover {
+    color:rgb(216, 184,6);
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.menu-tengah a{
+    letter-spacing: 1.5px;
+}
+
+.navbar-nav a:hover{
+    text-decoration: none;
+    border-bottom: 7px solid white;
+}
+
+.btn {
+    background-color: green;
+    border-color: green;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding: 0.6rem 0.8rem;
+    position: relative;
+    margin: 0.4rem 0.5rem;
+    line-height: 4;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.header {
+    background-color: gold;
+    padding-top: 6rem;
+    padding-bottom: 25px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.seminar {
+    max-width: 1200px;
+    padding: 0 1rem;
+    margin:auto;
+}
+
+.mulai {
+    display: flex;
+    justify-content: center;
+    margin: 15px 10px;
+}
+
+.mbr-col {
+    flex: 0 0 50%;
+    padding-left: 1rem;
+    margin: auto;
+}
+
+.img-wrapper {
+    position: relative;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    height: 290px;
+    width: 500px;
+    background: #ffffff;
+}
+
+.img-wrapper iframe {
+    width: 500px;
+    height: 290px
+}
+
+.col-awal {
+    padding: 0 2rem;
+    flex: 0 0 50%;
+    padding-top: 50px;
+}
+
+.col-tittle {
+    color:#197bc6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    margin: 0;
+}
+.col-tiga {
+    color:#000000;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+    font-style: normal;
+}
+
+.col-fonts {
+    color:#000000;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.mbr-section {
+    margin: 0 -0.25rem;
+}
+
+.btn-bawah {
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: #30a02c;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding: 1.4rem 2rem;
+    margin: 0.4rem 0.5rem;
+    font-style: normal;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.mbr-col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.card-text {
+    margin-bottom: 13px;
+    line-height: 24px;
+}
+
+.card-wrapper:hover {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.card-box {
+    padding: 15px; 
+}
+
+.card .card-wrapper {
+    height:85%;
+}
+
+.display-7 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+}
+
+.descr__text {
+    position: relative;
+    font-style:italic;
+}
+
+.star {
+    color: #fabd4a;
+    font-size: 20px;
+    margin: 0;
+    font-style: normal;
+}
+
+.display-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5rem;
+}
+
+.mbr-semibold {
+    font-weight: 500;
+}
+
+.feature {
+    padding-bottom: 30px
+}
+
+.mbr-col-lg-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.mbr-pb-3, .mbr-py-3 {
+    padding-bottom: 25px;
+}
+
+.align-center {
+    text-align:center;
+}
+
+.mbr-text {
+    font-style: normal;
+    line-height: 1.6;
+    width: 100%;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+.card-1 {
+    padding-right: 16rem;
+    margin-left:100px;
+}
+
+.mbr-col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 1rem;
+}
+
+.card-wrapper {
+    display: flex;
+    margin-bottom: 2rem;
+    background-color: #f9f8ed;
+}
+
+.card-wrapper-2 {
+    display:flex;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    transition: all 0.3s;
+    z-index: 1;
+    margin-right: 2rem;
+}
+
+.icon-wrapper .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #f9f8ed;
+}
+
+.icon-wrapper .icon .iconfont-wrapper {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.iconfont-wrapper {
+    display:inline-block;
+}
+
+.tittle {
+    color:#000000;
+}
+
+.display-2 {
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+    font-style: normal;
+}
+
+.align-left {
+    text-align:left;
+}
+
+.mbr-light {
+    font-weight: 300;
+}
+
+.icon-wrapper .icon .iconfont-wrapper .amp-iconfont {
+    color:gold;
+    font-size: 4.5rem;
+}
+
+.card2 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-left:100px;
+}
+
+.card3 {
+    padding-left: 16rem;
+    margin-left:100px;
+}
+
+.textcard3{
+    margin-left:5px;
+}
+
+.display-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+}
+
+.mbr-regular {
+    font-weight: 400;
+}
+
+.mbr-m-auto {
+    margin:auto;
+}
+
+.mbr-col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.mbr-col-md-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.img {
+    position: relative;
+    height: 290px;
+    width: 500px;
+
+}
+
+.img amp-img {
+    position: absolute;
+    margin:15px;
+    background: #ffd600;
+}
+
+.gambar {
+    width: 110%;
+    margin-top: 30px;
+}
+
+.btn-secondary, .btn-secondary:active, .btn-secondary.active {
+    background-color: #30a02c;
+    border-color: #30a02c;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    border:0px;
+}
+
+.btn-lg {
+    padding: 1.4rem 2rem;
+    border-radius: 5px;
+}
+
+.tengah {
+    max-width: 1200px;
+    padding: 0 1rem;
+    position: relative;
+    margin:auto;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.imgportir {
+margin: 5rem;
+margin-top: 10rem
+}
+
+.infoportir {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#494949;
+    font-style: normal;
+}
+
+.descportir {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    color:#494949;
+    line-height: 1.8;
+}
+
+.perjalanan {
+    padding-top: 65px;
+    background-color: #f9f8ed;
+    margin-right: -7px;
+    margin-left: -8px
+}
+
+.titleperjalanan {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.lima {
+    display: flex;
+    background-color: #f9f8ed;
+    margin-right: -8px;
+    margin-top: -40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.enam {
+    display: flex;
+    background-color: #f9f8ed;
+    margin-right: -8px
+}
+
+.cardimpor {
+    margin-right:110px;
+}
+
+.daftarsekarang {
+    background-color: #f9f8ed;
+    justify-content: center;
+    margin-right:-8px;
+    padding-left:400px;
+    margin-top:-5px;
+    padding-bottom: 50px;
+    font-weight: 700;
+}
+
+.buton {
+    background-color: green;
+    padding:20px;
+    padding-right: 30px;
+    padding-left:30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin-left: 165px;
+    font-style: normal;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.content06 {
+    padding-top: 105px;
+    padding-bottom: 0px;
+    background-image: url(../Image/background.jpg);
+    margin-left: -7px;
+    margin-right: -9px;
+}
+.modal {
+    max-width: 1140px;
+    padding: 0 1rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.mulaibisnis {
+    max-width: 66.6666666667%;
+}
+
+.wrap {
+    background: #ffd600;
+    padding: 4rem;
+}
+
+.imp {
+    color:#232323;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.import {
+    color:#232323;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding-bottom: 4px;
+    font-weight: 10rem;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.bisa {
+    color: #6f6363a6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom:-25px;
+    padding-bottom: 0.5rem;
+    letter-spacing: 3px;
+    line-height: 1.6;
+}
+
+.butonbawah {
+    padding: 45px;
+    margin-left: -35px;
+}
+.butonbawah2 {
+    background-color: green;
+    padding:20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-style: normal;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: inline-flex;
+    font-weight: 700;
+}
+
+.info {
+    background-color: #f9f8ed;
+    position: relative;
+    padding: 90px;
+    margin-right: -8px;
+    margin-left: -7px;
+}
+
+.baris {
+    justify-content: center;
+    display: flex;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.kotak {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.tanpaseminar {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    font-style: normal;
+    line-height: 1;
+    width: 100%;
+}
+
+.konsultasi {
+    text-align: center;
+    font-style: normal;
+    padding-top: 55px;
+}
+
+.kanankuning {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background: #ffd600;
+    top: 0rem;
+    right: 0rem;
+    margin-right: -8px;
+}
+
+.content05 {
+    padding: 100px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.konten {
+    max-width: 1200px;
+    padding: 0 1rem;
+    position: relative;
+    margin: auto;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+.baris {
+    display: flex;
+    justify-content: center;
+    margin-left: -1rem;
+    margin-right: 2rem;
+}
+
+.kotak {
+    padding: 0 2rem;
+    margin: 20px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.tanpaseminar2 {
+    color: #37272a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+}
+
+.konsul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    line-height: 2;
+    padding-top: 40px;
+}
+
+.butonkuning {
+    background-color: #ffd600;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 10px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-style: normal;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: inline-flex;
+}
+
+.butonputih {
+    background-color: white;
+    border-color: #185016;
+    color: #185016;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding: 1.4rem 2rem;
+    border-radius: 5px;
+    margin: 1rem 0.5rem;
+    border: 2px solid;
+    font-style: normal;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-left: 0;
+}
+
+.app {
+    width: 32rem;
+    margin-top: -30px;
+    margin-left: -5rem;
+}
+
+#wrapper2 {
+    position: relative;
+    z-index: 1;
+    height: 30rem;
+    background: #ffffff
+}
+
+.platinum {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    position: relative;
+    word-wrap: break-word;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.container-2 {
+    padding: 0 6rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.row-2 {
+    display: flex;
+}
+
+.card4 {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 0 1rem;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    transition: .3s;
+}
+
+.platinum .card4 .inner-item {
+    background-color: #ffffff;
+    height: 100%;
+    box-shadow: 0 0 35px 0 rgb(0 0 0 / 7%);
+    transition: transform 0.5s ease;
+}
+
+.card__title {
+    background-color: #30a02c;
+    background-color: #30a02c;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.card_title {
+    border-bottom: 1px solid #dadce2;
+    text-align: center;
+    padding: 1px 1px;
+}
+
+.platinum .card_title .title_text {
+    padding: 1px 35px;
+}
+
+.platinum .content_wrapper {
+    padding: 0 35px;
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+}
+
+.platinum .box {
+    padding: 40px 35px 35px;
+}
+
+.inner-item:hover {
+    transform: scaleY(1.5);
+}
+
+.platinum .price_block {
+    padding: 0px 30px 30px;
+    border: 1px solid #dadce2;
+    display: flex;
+    flex-direction: column;
+}
+
+.item__price {
+    background-color: #96e193;
+    border-color: #96e193;
+}
+
+.price {
+    justify-content: center;
+    display: flex;
+}
+
+.price_dollar {
+    position: relative;
+    bottom: -90px;
+    margin-right: 10px;
+}
+
+.text-5  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.price_price {
+    font-size: 60px;
+    line-height: 1;
+}
+
+.cols {
+    flex-direction: column;
+    display: flex;
+    margin: 45px 10px
+}
+
+.price_mounth {
+    margin: -10px auto;
+}
+
+.text-7 {
+    font-style: normal;
+}
+
+.platinum .btn-1 {
+    font-weight: 600;
+    position: relative;
+    margin: 0.4rem 0.5rem;
+    border: 2px solid;
+    font-style: normal;
+    white-space: normal;
+    transition: all 0.3s ease-in-out, box-shadow 2s ease-in-out, -webkit-box-shadow 2s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+    line-height: 1;
+}
+
+.text-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.btn-danger, .btn-danger:active, .btn-danger .active {
+    background-color: #a0a0a0;
+    border-color: #a0a0a0;
+    color: #ffffff
+}
+
+.btn-danger {
+    border: 0px;
+    padding: 1rem 2rem;
+}
+
+.btn-secondary {
+    padding: 10px;
+}
+
+.btn_hover {
+    padding: 10px 0;
+}
+
+.platinum .item-target .card_title {
+    border-color: #30a02c;
+    background-color: #30a02c;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.info02 {
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #ffd600;
+}
+
+.ikut {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ikuti {
+    font-family:'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+.harga {
+    font-style: normal;
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.masuk {
+    padding-left: 100px;
+}
+
+.sekarang {
+    color: white;
+}
+
+.regist {
+    background-color: green;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-style: normal;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.footer2 {
+    background-color: #000000;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.footer2 .container {
+    position: relative;
+    word-wrap: break-word;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 1rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.footer2 .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foot {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+    padding-right: 1rem;
+    padding-left: 1rem
+}
+
+.contact {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem
+}
+
+.text-importir {
+    color: #ffd600
+}
+
+.text-importir:hover {
+color:rgb(216, 184,6);
+}
+
+.mbr-flex {
+    padding-top: 3rem;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.felx {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.text-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.custom-text {
+    color: #efefef;
+    letter-spacing: 2px;
+}
+
+.text-prima {
+    color: #ffd600;
+}
+
+.text-prima:hover {
+    color: rgb(216, 184,6);
+}
+
+.custom-box {
+    padding-top: 60px;
+    border-left: 1px solid #373737;
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.heading {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.custom-title {
+    color: #ffffff;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.custom-item {
+    color: #ffffff;
+    text-align: left;
+}
+
+.icon-list {
+    padding-left: 48px;
+}
+
+.footX {
+    padding-top: 3rem;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.copyright {
+    color: #ffffff;
+    text-align: center;
+    font-style: normal;
+    line-height: 1.6;
+    width: 100%
+}
+
+mbr-section-title mbr-fonts-style align-left mbr-semibold mbr-black mbr-pb-3 display-1
+
+mbr-text text1 mbr-regular mbr-fonts-style align-left mbr-black mbr-light mbr-pb-3 display-7
+mbr-section-btn align-left
+title mbr-fonts-style mbr-pb-2 align-left mbr-semibold display-2
+
+alt="image" width="506" height="506" layout="responsive" 
+class="mobirise-loader mbr-m-auto align-center i-amphtml-element i-amphtml-layout-responsive 
+i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
+<i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;">
+</i-amphtml-sizer>
